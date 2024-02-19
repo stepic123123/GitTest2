@@ -1,45 +1,4 @@
-// первая задача
-
-const myCountry = 'Ukraine';
-console.log(myCountry);
-
-// вторая задача
-
-let isStudent
-isStudent = true;
-console.log(isStudent);
-
-isStudent = folse;
-console.log(isStudent);
-
-// 3 задача
-
-let x = 5;
-let y = 6;
-let result = x * y;
-console.log(result);
-
-// задача 4
-
-let name = "Vadym";
-let lastName = "Lavrenko";
-let profession = "QaEngineer";
-
-
-// задача 5
-
-let p = 5;
-
-// задача 6
-
-let m = "name";
-let n = 5;
-let v = true;
-let w = null;
-let b = undefined;
-
- 
- let house = {
+let house = {
      age: 30,
     name: "Big house",
    address: {
@@ -77,7 +36,58 @@ let b = undefined;
     }
 
     
- 
+
+    
+ //-----------------HW
+/* Чему будут равны переменные a, b, c и d в примере ниже?
+let a = 1, b = 1;
+let c = ++a; // ?
+let d = b++; // ? */
+
+// a = 1; b = 1; c = 2; d = 1.
+
+/* Чему будут равны переменные a и x после исполнения кода в примере ниже?
+let a = 2;
+let x = 1 + (a *= 2);
+ */
+
+// a = 2; x = 5;
+
+/* Преобразование типов
+"" + 1 + 0 
+10
+"" - 1 + 0
+-1
+true + false
+1
+6 / "3"
+2
+"2" * "3"
+6
+4 + 5 + "px"
+9px
+"$" + 4 + 5
+$45
+"4" - 2
+2
+"4px" - 2
+NaN
+"  -9  " + 5
+-95
+
+"  -9  " - 5
+-14
+null + 1
+1
+
+undefined + 1
+NaN
+" \t \n" - 2 */
+
+
+
+
+
 
 
 
