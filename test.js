@@ -24,12 +24,8 @@ let house = {
  console.log(house);
  console.log(home);
 
+ 
 
-
-
-    
-
-    
 
 
 
