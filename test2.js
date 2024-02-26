@@ -87,3 +87,96 @@ if (A>b) {
     console.log ('все остальное')
 }
 
+// HW
+
+// Что выведет код ниже?
+// console.log( null || 2 || undefined );
+
+// 2
+
+// console.log( //console.log(1) || 2 || //console.log(3) );
+
+// console.log( 1 && null && 2 );
+
+// null
+
+// console.log( null || 2 && 3 || 4 );
+
+// 3
+
+// let value = NaN;
+
+// value &&= 10;
+// value ||= 20;
+// value &&= 30;
+// value ||= 40;
+
+// console.log(value);
+
+// let age = 1;
+
+// if ( age >= 14 || age <= 90);
+
+// console.log(age);
+
+// if (age <=14 || age >=90);
+// console.log (m)
+
+// if (-1 || 0) //console.log( 'first' );  -1
+// if (-1 && 0) //console.log( 'second' ); 0
+// if (null || -1 && 1) //console.log( 'third' ); 1
+
+
+console.log( console.log(1) || 2 || console.log(3) );
+
+let age = 95;
+
+// if ( age > 14 || age < 90){
+//     console.log(age);
+// };
+
+if (!(age <=14 && age >=90)) {
+    console.log(age)
+};
+
+// HW switch
+
+// Напишите условие if для проверки, что переменная age находится в диапазоне между 14 и 90 включительно.
+
+let age2 = 100;
+
+switch (age2) {
+    case 85:
+    case 80:
+    console.log(age2);
+        
+        break;
+default:
+    console.log('error')
+        break;
+}
+
+// создать переменную число между 0 и 3
+
+let v = 3;
+
+switch (v) {
+    case 0:
+        console.log(0);
+        break;
+        
+    case 1:
+        console.log(1);
+        
+        break;
+    case 2:
+    case 3:
+        console.log('Вы ввели число 2,  может и 3');
+        
+        break;
+
+default:
+        console.log('error');
+}
+
+
