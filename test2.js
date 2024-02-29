@@ -180,3 +180,16 @@ default:
 }
 
 
+let ag1 = 100;
+
+switch (true) {
+    case ag1 > 14 && ag1 < 90:
+        console.log(`Мы в диапазоне значений от 14 до 95 и наш возраст ${ag1}`);
+        break;
+    default:
+        console.log(
+            `Мы не в диапазоне значений от 14 до 95 и наш возраст ${ag1}`
+        );
+        break;
+}
+
