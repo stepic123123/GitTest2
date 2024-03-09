@@ -96,46 +96,98 @@ let a = 1;
 let b = 2;
 let c = a + b;
 
+let sum = (a,b) => {
+    let sum2 = a + b;
+    return sum2;
+}
+console.log (sum(2,1));
+
+let min = (a,b) => {
+    let min2 = a - b;
+    return min2;
+}
+console.log (min(2,1));
+
+let mult = (a,b) => {
+    let mult2 = a * b;
+    return mult2;
+}
+console.log (mult(2,1));
+
+let div = (a,b) => {
+    let div2 = a / b;
+    return div2;
+}
+console.log (div(2,1));
+
+let summury = (a,b) => {
+    let sum3 = sum(a, b);
+    let min3 = min(sum3, b);
+    let mult3 = mult(min3, b);
+    let div3 = div(mult3, b);
+    console.log(sum3 + ' ' + min3 + ' ' + mult3 + ' ' + div3);
+    return div3;
+}
+console.log (sum(a,b));
+
+
+
+
+
+
+
 //console.loge.log(c);
 
-function sum(a, b) {
-    const sum = a + b;
-    return sum;
-}
+// function sum(a, b) {
+//     const sum = a + b;
+//     return sum;
+// }
 
 //sum(a, b);
 
-function min(a, b) {
-    const min = a - b;
-    return min;
-}
+// function min(a, b) {
+//     const min = a - b;
+//     return min;
+// }
 
 //min(a, b);
 
-function mult(a, b) {
-    const mult = a * b;
-    return mult;
-}
+// function mult(a, b) {
+//     const mult = a * b;
+//     return mult;
+// }
 
 //mult(a, b);
 
-function div(a, b) {
-    const div = a / b;
-    return div;
-}
+// function div(a, b) {
+//     const div = a / b;
+//     return div;
+// }
 
 //div(a, b);
 
-function summury(a, b) {
-    const sum2 = sum(a, b);
-    const min2 = min(sum2, b);
-    const mult2 = mult(min2, b);
-    const div2 = div(mult2, b);
-    console.log(sum2 + ' ' + min2 + ' ' + mult2 + ' ' + div2);
-    return div2;
-}
+// function summury(a, b) {
+//     const sum2 = sum(a, b);
+//     const min2 = min(sum2, b);
+//     const mult2 = mult(min2, b);
+//     const div2 = div(mult2, b);
+//     console.log(sum2 + ' ' + min2 + ' ' + mult2 + ' ' + div2);
+//     return div2;
+// }
 
-console.log(summury(a, b));
+// console.log(summury(a, b));
 
-const sum100 = sum(100, 100);
-console.log(sum100);
+// const sum100 = sum(100, 100);
+// console.log(sum100);
+
+
+// function sum (a,b) {
+//     return a + b
+// }
+
+// let sum = (a,b) => a + b
+// console.log(sum(5,3));
+
+let su = (a,b) => a + b
+
+console.log (su(2,1));
